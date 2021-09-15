@@ -1,10 +1,11 @@
 ## Vladimir Livensky
 # Contacts:
-E-mail:<br>
-Vk:<br>
-Telegram:<br>
+E-mail: wizart88@gmail.com<br>
+!(Vk:)[https://vk.com]<br>
+!(Telegram:)[htttps://t.me]<br>
 # Summary
 
+Motivated, team player
 # Skills
 + HTML5
 + CSS
@@ -14,5 +15,7 @@ Telegram:<br>
 # Experience
 
 # Education
-
+Astrahan State University<br> 
+specialty: information technologies
 # English
+A2
