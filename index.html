@@ -5,90 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/rsschool-cv/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
     <title>Vladimir Livensky</title>
 </head>
 <body>
-    <header class="header">
-        <aside class="aside">
-            <div class="photo">
-                <img src="rsschool-cv/img/my_photo.img" alt="My photo">
+    <header>
+        <div class="header_head">
+            <div class="container">
+                <div class="head_inner">
+                    <div class="name">Vladimir Livensky</div>
+                    <nav>
+                       <ul>
+                           <li><a href="#contacts">contacts</a></li>
+                           <li><a href="#summary">summary</a></li>
+                           <li><a href="#skills">skills</a></li>
+                           <li><a href="#experience">experience</a></li>
+                           <li><a href="#education">education</a></li>
+                           <li><a href="#english">english</a></li>                          
+                       </ul> 
+                    </nav>
+                </div>
             </div>
-            <div class="name">
-                <h1 class="name">Vladimir Livensky</h1>
-                <p class="speciality">Junior frontend developer</p>
-            </div>            
-        </aside>
+        </div>
+        <!-- <div class="header_body"></div> -->
+        
     </header>
-    <section class="contacts">
-        <div class="contacts-container">
-            <h2 class="contacts-title">
-                Contacts
-            </h2>
-            <ul class="contacts-list">
-                <li class="contacts-item">
-                    <a href="+7 (927) 281848" class="contacts-item-link">+7 (927) 281848</a>
-                </li>
-                <li class="contacts-item">
-                    <a href="mailto:wizart88@gmail.com" class="contacts-item-link">wizart88@gmail.com</a>
-                </li>
-                <li class="contacts-item">
-                    <a href="https://vk.com" class="contacts-item-link">VK</a>
-                </li>
-                <li class="contacts-item">
-                    <a href="https://t.me" class="contacts-item-link">Telegram</a>
-                </li>
-            </ul>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="header_body_inner">
+                <div class="left">
+                   <div class="title">
+                       Hi, i am Vladimir and i study to<br> <span>javascript-developer</span>
+                   </div> 
+                   
+                </div>
+                <div class="right">
+                    <img src="img/my_photo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section_title">
+                <h2 class="">Contacts</h2>
+            </div>
+            <div class="about_text">
+                <p><a href="#"> Email:  wizart88@gmail.com</a></p>
+                <p><a href="https://vk.com/id669798806"><img src="/img/vk.png" alt=""></a></p>
+                <p><a href="Vlad_1i"><img src="/img/telegram.png" alt=""></a></p>                               
+            </div>
         </div>
     </section>
-    <section class="summary">
-        <div class="summary-container">
-            <h2 class="summary-title">Summary</h2>
-            <p class="block-text">I work as a system administrator in a rural area. Work, part-time jobs, household chores, car: take a lot of time. Look at it, I allocate time for my dream. I want to study to be a programmer.</p>
-            <p class="summary-text">Motivated, team player</p>
+    <section class="summary" id="summary">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="">Summary</h2>
+            </div>
+            <div class="about_text">
+                <p>I work as a system administrator in a rural area.  Work, part-time jobs, household chores, car: take a lot of time. Look at it, I allocate time for my dream. </p>
+                <p>I want to study to be a programmer. </p>
+                <p>Motivated, team player</p>
+            </div>
         </div>
     </section>
-    <section class="skills">
-        <div class="skills-container">
-            <h2 class="skills-title">Skills</h2>
-            <ul class="skills-list">
-                <li class="skills-item">HTML5</li>
-                <li class="skills-item">CSS3</li>
-                <li class="skills-item">JavaScript</li>
-                <li class="skills-item">GIT</li>
-                <li class="skills-item">VS Code</li>
-            </ul>
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="">Skills</h2>
+            </div>           
+            <div class="skills_text">
+                <div class="about_text">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Git</li>
+                        <li>VSCode</li>
+                    </ul>
+                </div>                    
+            </div>
         </div>
     </section>
-    <section class="experience">
-        <div class="experience-container">
-            <h2 class="experience-title">Experience</h2>
-            <a href="https://github.com/Vladimir-cloudj/Abito-Glo-academy" class="experience-item">ProjectAbito</a>
-            <a href="https://github.com/Vladimir-cloudj/testProjectLomoda" class="experience-item">ProjectLomoda</a>
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="">My experience</h2>
+            </div>
+            <div class="experience_items">
+                <div class="item">
+                    <a href="https://github.com/Vladimir-cloudj/Abito-Glo-academy" class="item">Abito</a>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/Vladimir-cloudj/testProjectLomoda" class="item">Lomoda</a>
+                </div>                           
+            </div>            
         </div>
     </section>
-    <section class="education">
-        <div class="education-container">
-            <h2 class="experience-title">Education</h2>
-            <p class="block-text">Astrahan State University<br> 
-                specialty: information technologies</p>
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="">Education</h2>
+            </div>
+            <div class="education_items">
+                <h3>Astrahan State University</h3>
+                <p> <span>specialization: </span>information technologies</p>
+                <p>2007</p>    
+            </div>            
         </div>
     </section>
-    <section class="english">
-        <div class="english-container">
-            <h2 class="english-title">English</h2>
-            <p class="block-item">A2</p>
+    <section class="english" id="english">
+        <div class="container">
+            <div class="section_title">
+                <h2 class="">English</h2>
+            </div>
+            <div class="english-container">            
+                <p class="block-item">Pre-intermediate - A2 </p>
+            </div>
         </div>
+        
     </section>
     <footer class="footer">
         <div class="footer-container">
             <p class="footer-item">Volgograd 2021</p>
         </div>
-        <div>
-            <a href="https://github.com/Vladimir-cloudj" class="link">My github</a>
-            <a href="https://rs.school/js/" class="link"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School" class="img__rss" width="100px"
-                height="100px"></a>
-        </div>
+
+            <a href="https://github.com/Vladimir-cloudj" class="link"> <img src="/img/github.png" alt="My github"> </a>
+            <a href="https://rs.school/js/" class="link"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School" class="img__rss" ></a>
+        
     </footer>
 </body>
 </html>
