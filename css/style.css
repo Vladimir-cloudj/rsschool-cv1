@@ -19,12 +19,9 @@ body{
 header{
     position: relative;
     overflow: hidden;
-    width: 100%;    
-}
-header{
-    position: relative;    
+    width: 100%;
     background-color: #383938;
-    z-index: 100;
+    z-index: 100;    
 }
 .head_inner{    
     display: -webkit-flex;
@@ -62,11 +59,7 @@ header{
 .head_inner nav ul li a:hover{
     color: #f83b3a;
 }
-.header_body{
-    position: relative;
-    width: 100%;
-    margin-top: 150px;    
-}
+
 .header_body_inner{
     display: flex;
     justify-content: space-between;
@@ -124,17 +117,6 @@ section{
 .experience_items .item{
     font-size: 18px;
     margin-bottom: 25px;    
-}
-.portfolio_items{
-    margin-top: 45px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.portfolio_items .item img{
-    max-width: 100%;
-}
-.education .education_items span{
-    color: #f83b3a;
 }
 .education_items h3{
     color: #383938;
