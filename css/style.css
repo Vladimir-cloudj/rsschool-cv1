@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 body{
-    /* position: relative; */
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -98,8 +97,8 @@ section{
     margin-bottom: 25px;    
 }
 .about_text p a img{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 .skills .skills_text li{
     margin-bottom: 25px; 
